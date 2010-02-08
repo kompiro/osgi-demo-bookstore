@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: shop.core;version="0.1.0"
+Private-Package: junit.awtui,junit.extensions,junit.framework,junit.ru
+ nner,junit.swingui,junit.swingui.icons,junit.textui,shop.core.interna
+ l
+Ignore-Package: shop.core.internal
+Bundle-ClassPath: .,target/pax-eclipse,target/pax-eclipse/junit-3.8.2.
+ jar
+Built-By: kompiro
+Tool: Bnd-0.0.255
+Bundle-Name: org.kompiro.core [shop.core]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 0.1.0
+Bnd-LastModified: 1265604731576
+Bundle-Activator: shop.core.internal.ExampleActivator
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Bundle-SymbolicName: org.kompiro.core
+Import-Package: javax.swing,javax.swing.border,javax.swing.event,javax
+ .swing.tree,org.osgi.framework,shop.core;version="0.1.0"
+Embed-Dependency: junit;groupId=junit;inline=false
+
