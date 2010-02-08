@@ -8,4 +8,6 @@ public interface BookService {
 
 	public List<Book> find(String name);
 	
+	public Book register(String name, String author, int price);
+	
 }

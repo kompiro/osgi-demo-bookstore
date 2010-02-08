@@ -53,6 +53,7 @@
     <!--
     <module>books.impl</module>
     -->
+    <module>web.admin</module>
   </modules>
 
   <build>

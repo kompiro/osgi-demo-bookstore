@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
-Export-Package: org.kompiro.bookstore.books.service;version="0.1.0",or
- g.kompiro.bookstore.books.model;version="0.1.0"
+Export-Package: org.kompiro.bookstore.books.service;uses:="org.kompiro
+ .bookstore.books.model";version="0.1.0",org.kompiro.bookstore.books.m
+ odel;version="0.1.0"
 Private-Package: org.kompiro.bookstore.books.internal.*
 Built-By: kompiro
 Tool: Bnd-0.0.255
@@ -8,7 +9,7 @@ Bundle-Name: org.kompiro.bookstore.books [org.kompiro.bookstore.books]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_16
 Bundle-Version: 0.1.0
-Bnd-LastModified: 1265638740327
+Bnd-LastModified: 1265667860967
 Bundle-ManifestVersion: 2
 Bundle-Description: Generated using Pax-Construct
 Import-Package: org.kompiro.bookstore.books.model;version="0.1.0",org.

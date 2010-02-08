@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: org.kompiro.bookstore.books.web.admin;version="1.0.0.SNAPSHOT"
+Private-Package: org.kompiro.bookstore.books.admin.internal
+Ignore-Package: org.kompiro.bookstore.books.admin.internal
+Built-By: kompiro
+Tool: Bnd-0.0.255
+Bundle-Name: org.kompiro.bookstore.web.admin [org.kompiro.bookstore.bo
+ oks.admin]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1265666434082
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.kompiro.bookstore.books.web.admin.internal.ExampleActivator
+Bundle-Description: Generated using Pax-Construct
+Import-Package: org.kompiro.bookstore.books.web.admin;version="1.0.0.SNAPSHOT",
+ org.osgi.framework
+Bundle-SymbolicName: org.kompiro.bookstore.web.admin
+

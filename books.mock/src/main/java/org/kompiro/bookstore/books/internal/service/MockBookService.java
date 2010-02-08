@@ -8,16 +8,23 @@ import org.kompiro.bookstore.books.service.BookService;
 
 public class MockBookService implements BookService{
 
+	private List<Book> books = new ArrayList<Book>();
+
 	public List<Book> find(String name) {
-		List<Book> result = new ArrayList<Book>();
-		result.add(create("ねずみの本","こんぴろ",500));
-		result.add(create("ねこの本","こんぴろ",200));
-		result.add(create("いぬの本","こんぴろ",800));
-		return result;
+		register("ねずみの本","こんぴろ",500);
+		register("ねこの本","こんぴろ",200);
+		register("いぬの本","こんぴろ",800);
+		return books;
 	}
 
 	private Book create(String name, String author, int price) {
 		return new Book(name,author,price);
+	}
+
+	public Book register(String name, String author, int price) {
+		Book result = create(name,author,price);
+		books.add(result);
+		return result;
 	}
 
 }
