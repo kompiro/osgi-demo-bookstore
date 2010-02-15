@@ -2,6 +2,4 @@
 # Use this file to add customized Bnd instructions for the bundle
 #-----------------------------------------------------------------
 
-#Bundle-Activator: ${bundle.namespace}.internal.Book
-
 Embed-Dependency: junit;groupId=junit;inline=false

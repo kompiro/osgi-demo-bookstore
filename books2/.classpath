@@ -1,0 +1,12 @@
+<classpath>
+  <classpathentry excluding="**/*.java" including="plugin.xml|plugin.properties|icons/**" path="." kind="src"/>
+  <classpathentry path="src/main/java" kind="src"/>
+  <classpathentry excluding="**/*.java" path="src/main/resources" kind="src"/>
+  <classpathentry path="target/classes" kind="output"/>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"/>
+  <classpathentry path="org.eclipse.pde.core.requiredPlugins" kind="con"/>
+  <classpathentry path="M2_REPO/org/kompiro/bookstore/books.domain/1.0/books.domain-1.0.jar" kind="var"/>
+  <classpathentry path="M2_REPO/org/osgi/osgi_R4_compendium/1.0/osgi_R4_compendium-1.0.jar" kind="var"/>
+  <classpathentry path="M2_REPO/org/osgi/osgi_R4_core/1.0/osgi_R4_core-1.0.jar" kind="var"/>
+  <classpathentry path="target/pax-eclipse" exported="true" kind="lib"/>
+</classpath>

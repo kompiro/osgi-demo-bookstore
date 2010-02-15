@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Private-Package: org.kompiro.bookstore.books.internal.model,org.kompir
+ o.bookstore.books.internal.service
+Ignore-Package: org.kompiro.bookstore.books.internal.service,org.kompi
+ ro.bookstore.books.internal.model
+Built-By: kompiro
+Tool: Bnd-0.0.255
+Bundle-Name: org.kompiro.bookstore.books.impl [org.kompiro.bookstore.b
+ ooks]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 0.1.0.impl
+Bnd-LastModified: 1266236294282
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: org.h2.jaqu;resolution:=optional,org.kompiro.bookstore
+ .books.model;resolution:=optional;version="1.0",org.kompiro.bookstore
+ .books.service;resolution:=optional;version="2.0"
+Bundle-SymbolicName: org.kompiro.bookstore.books.impl
+

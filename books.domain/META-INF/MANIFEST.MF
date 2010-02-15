@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: org.kompiro.bookstore.books.model;version="1.0"
+Private-Package: org.kompiro.bookstore.books.model.internal.*
+Built-By: kompiro
+Tool: Bnd-0.0.255
+Bundle-Name: org.kompiro.bookstore.books.domain [org.kompiro.bookstore
+ .books.model]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 1.0
+Bnd-LastModified: 1266244560276
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: org.kompiro.bookstore.books.model;version="1.0"
+Bundle-SymbolicName: org.kompiro.bookstore.books.domain
+

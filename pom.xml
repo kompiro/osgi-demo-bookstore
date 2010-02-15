@@ -49,10 +49,12 @@
     <module>provision</module>
     <module>web</module>
     <module>books</module>
-    <module>books.mock</module>
-    <!--
+    <!-- 
+    <module>books2</module>
     <module>books.impl</module>
-    -->
+    <module>books.domain</module>
+ -->
+    <module>books.mock</module>
     <module>web.admin</module>
   </modules>
 

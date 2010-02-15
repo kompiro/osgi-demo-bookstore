@@ -3,7 +3,7 @@
 
   <parent>
     <relativePath>../poms/compiled/</relativePath>
-    <groupId>org.kompiro.spring.build</groupId>
+    <groupId>org.kompiro.bookstore.build</groupId>
     <artifactId>compiled-bundle-settings</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -118,6 +118,7 @@
     	<groupId>org.kompiro.bookstore</groupId>
     	<artifactId>books</artifactId>
     	<version>0.1.0</version>
+    	<type>bundle</type>
     </dependency>
   </dependencies>
 

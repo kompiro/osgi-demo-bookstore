@@ -9,11 +9,14 @@ import org.kompiro.bookstore.books.service.BookService;
 public class MockBookService implements BookService{
 
 	private List<Book> books = new ArrayList<Book>();
-
-	public List<Book> find(String name) {
+	
+	public MockBookService() {
 		register("ねずみの本","こんぴろ",500);
 		register("ねこの本","こんぴろ",200);
 		register("いぬの本","こんぴろ",800);
+	}
+
+	public List<Book> find(String name) {
 		return books;
 	}
 
