@@ -3,3 +3,6 @@
 target
 **/target/**
 runner
+bin
+**/bin/**
+**/.externalToolBuilders/**
