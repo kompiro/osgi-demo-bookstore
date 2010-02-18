@@ -1,5 +1,6 @@
 package org.kompiro.bookstore.books.internal.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.h2.jaqu.Db;
@@ -43,6 +44,10 @@ public class JaQuBookService implements BookService,BookService2{
 			JaQuBookService.db.close();
 		}
 		JaQuBookService.db = Db.open(url, "sa", "");
+	}
+
+	public String getServiceName() {
+		return getClass().getSimpleName();
 	}
 
 }

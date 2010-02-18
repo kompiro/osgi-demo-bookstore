@@ -17,10 +17,12 @@ public class SearchController {
 	
 	@Autowired
 	BookService bookService;
+//	BookService2 bookService;
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public String showSearchForm(String searchString, ModelMap model) {
 		if(searchString != null) return doSearch(searchString, model);
+		model.addAttribute("serviceName",bookService.getServiceName());
 		return "searchForm" ;
 	}
 
@@ -28,6 +30,7 @@ public class SearchController {
 	public String doSearch(String searchString, ModelMap model) {
 		List<? extends Book> books = bookService.find(searchString);
 		model.addAttribute("books",books);
+		model.addAttribute("serviceName",bookService.getServiceName());
 		return "searchResults";
 	}
 	

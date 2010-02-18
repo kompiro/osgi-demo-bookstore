@@ -6,6 +6,7 @@
 <html>
 <head><title>本の登録結果</title></head>
 <body>
+${serviceName}<br/>
 <form method="POST" action="register.htm">
   書名: <input type="text" name="name" size="55" />
   <br/>

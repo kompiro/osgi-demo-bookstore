@@ -1,7 +1,5 @@
 package org.kompiro.bookstore.books.web.admin;
 
-import java.util.List;
-
 import org.kompiro.bookstore.books.model.Book;
 import org.kompiro.bookstore.books.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +10,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/register.htm")
-public class RegistreService {
+public class RegistreController {
 
 	@Autowired
 	BookService bookService;
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String registerForm(ModelMap model) {
+		model.addAttribute("serviceName",bookService.getServiceName());
 		return "registerForm" ;
 	}
 
@@ -30,6 +29,7 @@ public class RegistreService {
 //		}
 		Book book = bookService.register(name, author, price);
 		model.addAttribute("book",book);
+		model.addAttribute("serviceName",bookService.getServiceName());
 		return "registerResults";
 	}
 

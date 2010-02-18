@@ -3,6 +3,7 @@ package org.kompiro.bookstore.books.internal.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.kompiro.bookstore.books.internal.model.MockBook;
 import org.kompiro.bookstore.books.model.Book;
 import org.kompiro.bookstore.books.service.BookService;
 
@@ -21,7 +22,7 @@ public class MockBookService implements BookService{
 	}
 
 	private Book create(String name, String author, int price) {
-		return new Book(name,author,price);
+		return new MockBook(name,author,price);
 	}
 
 	public Book register(String name, String author, int price) {
@@ -29,5 +30,10 @@ public class MockBookService implements BookService{
 		books.add(result);
 		return result;
 	}
+	
+	public String getServiceName() {
+		return getClass().getSimpleName();
+	}
+
 
 }

@@ -6,6 +6,7 @@
 <html>
 <head><title>書名検索結果</title></head>
 <body>
+${serviceName}<br/>
 <form method="POST" action="search.htm">
 <input type="text" name="searchString"/>&nbsp;
 <input type="submit" value="Search"/>

@@ -42,6 +42,13 @@
       <artifactId>osgi_R4_compendium</artifactId>
       <optional>true</optional>
     </dependency>
+    <dependency>
+    	<groupId>org.kompiro.bookstore</groupId>
+    	<artifactId>books.domain</artifactId>
+    	<version>1.0</version>
+    	<type>bundle</type>
+    	<scope>compile</scope>
+    </dependency>
   </dependencies>
 
 </project>

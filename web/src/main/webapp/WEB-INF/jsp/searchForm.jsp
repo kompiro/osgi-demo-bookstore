@@ -10,6 +10,7 @@
       <br/>
       <br/>
       <h1>ブックストア</h1>
+      ${serviceName}<br/>
       <br/>
       <br/>
       <form method="POST" action="search.htm">

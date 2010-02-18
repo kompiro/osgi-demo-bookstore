@@ -11,6 +11,7 @@
       <br/>
       <br/>
       <h1>本の登録</h1>
+      ${serviceName}<br/>
       <br/>
       <br/>
       <form method="POST" action="register.htm">

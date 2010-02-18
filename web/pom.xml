@@ -19,7 +19,7 @@
   <artifactId>web</artifactId>
   <version>0.1.0</version>
 
-  <name>${bundle.symbolicName}</name>
+  <name>${bundle.symbolicName} [${bundle.namespace}]</name>
  <packaging>war</packaging>
 
     
@@ -119,6 +119,13 @@
     	<groupId>org.kompiro.bookstore</groupId>
     	<artifactId>books</artifactId>
     	<version>0.1.0</version>
+    	<type>bundle</type>
+    	<scope>compile</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.kompiro.bookstore</groupId>
+    	<artifactId>books.domain</artifactId>
+    	<version>1.0</version>
     	<type>bundle</type>
     	<scope>compile</scope>
     </dependency>

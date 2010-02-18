@@ -3,6 +3,7 @@
   <comment>Generated using Pax-Construct</comment>
   <projects>
     <project>books</project>
+    <project>books.domain</project>
   </projects>
   <buildSpec>
     <buildCommand>

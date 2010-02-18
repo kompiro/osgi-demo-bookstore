@@ -6,6 +6,8 @@ import org.kompiro.bookstore.books.model.Book;
 
 public interface BookService {
 
+	public String getServiceName();
+	
 	public List<? extends Book> find(String name);
 	
 	public Book register(String name, String author, int price);
