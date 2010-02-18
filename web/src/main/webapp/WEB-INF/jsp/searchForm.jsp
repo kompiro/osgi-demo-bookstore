@@ -2,15 +2,15 @@
     pageEncoding="UTF-8"%>
 <html>
   <head>
-    <title>Bookstore</title>
+    <title>こんぴろ書店(検索画面)</title>
   </head>
   
-  <body style="text-align:center;">
+  <body style="text-align:center;font-size:20pt;">
       <br/>
       <br/>
       <br/>
-      <h1>ブックストア</h1>
-      ${serviceName}<br/>
+      <h1>こんぴろ書店<br/>(検索画面)</h1>
+      <!--  ${serviceName}  -->
       <br/>
       <br/>
       <form method="POST" action="search.htm">
@@ -22,6 +22,6 @@
       <br/>
       <br/>
       <br/>
-      <span style="font-family:arial;font-size:8pt;">Copyright &copy; 2009</span>
+      <span style="font-family:arial;font-size:8pt;">Copyright &copy; 2010</span>
   </body>
 </html>

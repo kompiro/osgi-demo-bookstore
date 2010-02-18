@@ -14,4 +14,10 @@
 	  id="bookService"
 	  interface="org.kompiro.bookstore.books.service.BookService"
 	  timeout="3000"/>
+	  <!-- 
+	<osgi:reference 
+	  id="bookService"
+	  interface="org.kompiro.bookstore.books.service.BookService2"
+	  timeout="3000"/>
+	   -->
 </beans>

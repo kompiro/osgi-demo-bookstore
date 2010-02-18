@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="org.kompiro.bookstore.books.model.Book" %>
 <html>
-<head><title>書名検索結果</title></head>
+<head><title>こんぴろ書店(検索結果)</title></head>
 <body>
 ${serviceName}<br/>
 <form method="POST" action="search.htm">
@@ -16,7 +16,7 @@ ${serviceName}<br/>
 <h2>本が見つかりませんでした。</h2>
 </c:when>
 <c:otherwise>
-<table border="1">
+<table border="1" style="font-size:20pt">
 <thead>
 <tr>
 <td><b>書名</b></td>

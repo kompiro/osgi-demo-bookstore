@@ -10,7 +10,7 @@ Bundle-Name: org.kompiro.bookstore.books.mock [org.kompiro.bookstore.b
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_16
 Bundle-Version: 0.1.0.mock
-Bnd-LastModified: 1266501930526
+Bnd-LastModified: 1266512080215
 Bundle-ManifestVersion: 2
 Bundle-Description: Generated using Pax-Construct
 Import-Package: org.kompiro.bookstore.books.model;version="1.0",org.ko

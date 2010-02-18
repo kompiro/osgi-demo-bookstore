@@ -4,9 +4,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="org.kompiro.bookstore.books.model.Book" %>
 <html>
-<head><title>本の登録結果</title></head>
+<head><title>こんぴろ書店(登録結果)</title></head>
 <body>
-${serviceName}<br/>
+<!-- ${serviceName} -->
 <form method="POST" action="register.htm">
   書名: <input type="text" name="name" size="55" />
   <br/>
@@ -20,7 +20,7 @@ ${serviceName}<br/>
 </c:when>
 <c:otherwise>
 <h2>本を登録しました。</h2>
-<table border="1">
+<table border="1" style="font-size:20pt;">
 <thead>
 <tr>
 <td><b>書名</b></td>

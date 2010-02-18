@@ -10,7 +10,7 @@ Bundle-Name: org.kompiro.bookstore.books.impl [org.kompiro.bookstore.b
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_16
 Bundle-Version: 0.1.0.impl
-Bnd-LastModified: 1266416650688
+Bnd-LastModified: 1266506351643
 Bundle-ManifestVersion: 2
 Bundle-Description: Generated using Pax-Construct
 Import-Package: org.h2.jaqu;resolution:=optional,org.kompiro.bookstore

@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
     http://www.springframework.org/schema/osgi
     http://www.springframework.org/schema/osgi/spring-osgi.xsd">
-  <osgi:service auto-export="interfaces">
+  <osgi:service auto-export="interfaces" ranking="99">
  	 <bean class="org.kompiro.bookstore.books.internal.service.MockBookService" />
   </osgi:service>
 </beans>

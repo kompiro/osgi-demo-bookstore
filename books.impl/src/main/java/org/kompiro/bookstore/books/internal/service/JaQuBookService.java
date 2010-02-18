@@ -1,6 +1,5 @@
 package org.kompiro.bookstore.books.internal.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.h2.jaqu.Db;
@@ -25,7 +24,8 @@ public class JaQuBookService implements BookService,BookService2{
 		if(name == null || name.equals("")){
 			return db.from(book).select();
 		}
-		return db.from(book).where(book.name).is(name).select();
+		String wrappedLike = "%" + name + "%";
+		return db.from(book).where(book.name).like(wrappedLike).select();
 	}
 
 	private Book create(String name, String author, int price) {

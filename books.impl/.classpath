@@ -9,6 +9,7 @@
   <classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
   <classpathentry kind="var" path="M2_REPO/org/kompiro/bookstore/books.domain/1.0/books.domain-1.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/kompiro/bookstore/books2/2.0.0/books2-2.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.2.128/h2-1.2.128.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/h2database/h2jaqu/1.2.128/h2jaqu-1.2.128.jar"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit/4.7/junit-4.7.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/osgi/osgi_R4_compendium/1.0/osgi_R4_compendium-1.0.jar"/>

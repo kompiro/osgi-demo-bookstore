@@ -20,9 +20,26 @@ public class JaQuBookServiceTest {
 	@Test
 	public void register() throws Exception {
 		service.register("test", "test", 100);
-		assertThat(service.find("test").size(),is(1));
-		service.register("test2", "test2", 100);
+		service.register("Hello OSGi", "こんぴろ", 200);
 		assertThat(service.find(null).size(),is(2));
+	}
+
+	@Test
+	public void find() throws Exception {
+		service.register("test", "test", 100);
+		service.register("Hello OSGi", "こんぴろ", 200);
+		assertThat(service.find("test").size(),is(1));
+		assertThat(service.find(null).size(),is(2));
+	}
+
+	@Test
+	public void likeが効いていること() throws Exception {
+		service.register("test", "test", 100);
+		service.register(" test ", "test", 100);
+		service.register("Hello OSGi", "こんぴろ", 200);
+		assertThat(service.find("test").size(),is(2));
+		assertThat(service.find(null).size(),is(3));
+		assertThat(service.find("OSGi").size(),is(1));
 	}
 	
 }

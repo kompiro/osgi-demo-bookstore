@@ -3,15 +3,15 @@
 <%@ page info="本の登録ページ" %>
 <html>
   <head>
-    <title>こんぴろ書店</title>
+    <title>こんぴろ書店(登録画面)</title>
   </head>
   
-  <body style="text-align:center;">
+  <body style="text-align:center;font-size:20pt;">
       <br/>
       <br/>
       <br/>
       <h1>本の登録</h1>
-      ${serviceName}<br/>
+      <!-- ${serviceName} -->
       <br/>
       <br/>
       <form method="POST" action="register.htm">
@@ -27,6 +27,6 @@
       <br/>
       <br/>
       <br/>
-      <span style="font-family:arial;font-size:8pt;">Copyright &copy; 2009</span>
+      <span style="font-family:arial;font-size:8pt;">Copyright &copy; 2010</span>
   </body>
 </html>
