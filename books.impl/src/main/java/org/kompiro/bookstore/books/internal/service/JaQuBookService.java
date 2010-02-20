@@ -1,5 +1,6 @@
 package org.kompiro.bookstore.books.internal.service;
 
+import java.io.File;
 import java.util.List;
 
 import org.h2.jaqu.Db;
@@ -13,7 +14,8 @@ public class JaQuBookService implements BookService,BookService2{
 	private static Db db;
 	static{
 		try {
-			db = Db.open("jdbc:h2:/tmp/test3", "sa", "sa");
+			String tempFile = File.createTempFile("book_service", "db").getAbsolutePath();
+			db = Db.open("jdbc:h2:" + tempFile, "sa", "sa");
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
